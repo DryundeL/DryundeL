@@ -11,6 +11,7 @@ My goal is not just to write code, but to create cool products that bring benefi
 # 💻 Tech Stack:
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 # 📊 GitHub Stats:
+![]([https://github-readme-stats.vercel.app/api?username=dryundel&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true](https://github-readme-stats.vercel.app/api/top-langs?username=dryundel&theme=react&hide_title=false&layout=compact&langs_count=6&hide_progress=false&card_width=400))<br/>
 ![](https://github-readme-stats.vercel.app/api?username=dryundel&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=dryundel&theme=tokyonight&hide_border=false)<br/>
 
