@@ -1,5 +1,9 @@
 # 💫 About Me:
-Привет! Hi! Hola! Bonjour!👋<br><br>Я — backend разработчик. Мои основные языки программирования — PHP, Golang и Node.js, и я всегда в поиске новых способов сделать код еще лучше, а проекты — масштабнее и надежнее. <br><br>Мне нравится разбираться в сложных задачах, оптимизировать процессы и создавать решения, которые действительно работают. Каждый новый проект — это возможность для роста и экспериментов, и я всегда готов принять новый вызов.<br><br>Моя цель — не просто писать код, а создавать крутые продукты, которые приносят пользу и радость людям. Если у тебя есть идеи или интересные проекты, буду рад пообщаться и, возможно, посотрудничать!<br>
+Привет! Hi! Hola! Bonjour!👋<br><br>I am a backend developer. My main programming languages ​​are PHP, Golang and Node.js, and I am always looking for new ways to make code even better and projects - larger and more reliable.
+
+I like to understand complex problems, optimize processes and create solutions that really work. Every new project is an opportunity for growth and experimentation, and I am always ready to take on a new challenge.
+
+My goal is not just to write code, but to create cool products that bring benefit and joy to people. If you have ideas or interesting projects, I will be glad to communicate and, perhaps, collaborate!<br>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/dryundel021) 
