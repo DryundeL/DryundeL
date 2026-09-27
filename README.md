@@ -1,21 +1,94 @@
-# 💫 About Me:
-Привет! Hi! Hola! Bonjour!👋<br><br>I am a backend developer. My main programming languages ​​are PHP, Golang and Node.js, and I am always looking for new ways to make code even better and more efficient.
+# Hi, I'm Andrey 👋
 
-I like to understand complex problems, optimize processes, and create solutions that really work. Every new project is an opportunity for growth and experimentation, and I am always ready to take on a challenge.
+### Backend Developer · Go & PHP / Laravel
 
-My goal is not just to write code, but to create cool products that bring benefit and joy to people. If you have ideas or interesting projects, I will be glad to communicate and, perhaps, collaborate!
+APIs, authentication, integrations, and data services — from design to production.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/dryundel021) 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dryundell)
+[![Telegram](https://img.shields.io/badge/Let's_talk-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dryundell)
+[![Habr Career](https://img.shields.io/badge/Habr_Career-243642?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/dryundel021)
+[![GitHub](https://img.shields.io/badge/Explore_my_code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dryundel?tab=repositories)
 
-# 💻 Tech Stack:
-![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)
+</div>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api/top-langs?username=dryundel&theme=react&hide_title=false&layout=compact&langs_count=6&hide_progress=false&card_width=400)<br/>
-![](https://github-readme-stats.vercel.app/api?username=dryundel&theme=tokyonight&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=dryundel&theme=tokyonight&hide_border=false)<br/>
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dryundel&theme=tokyonight)<br/>
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dryundel&theme=tokyonight)<br/>
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dryundel&theme=tokyonight)<br/>
+---
+
+## The work behind the stack
+
+I'm a backend developer with commercial experience since **2021**, working primarily with **PHP/Laravel and Go**. I build services for educational platforms, analytics, and business workflows.
+
+My work spans API and database design, centralized authentication, asynchronous processing, external integrations, and production delivery. I also contribute to code reviews, task decomposition, and mentoring in a team of up to five engineers.
+
+## What I can help build
+
+| Area | Hands-on experience |
+| :--- | :--- |
+| **Backend services & APIs** | Laravel and Go services, REST/gRPC APIs, OpenAPI documentation, modular application design |
+| **Authentication & access** | OAuth2 SSO, role-based access control, JWT, Laravel Sanctum |
+| **Data & analytics** | PostgreSQL/MySQL data models, SQL optimization, reporting APIs, background dataset preparation |
+| **Integrations & background jobs** | External HTTP APIs, 1C:University integration, queues, RabbitMQ, Redis caching |
+| **Business workflows** | CSV/Excel import and export, PDF/DOCX generation, file storage, marketplace features |
+| **Delivery & quality** | Docker, CI/CD, PHPUnit, production support, code review and mentoring |
+
+## Selected work
+
+### 🎓 InStudy · Educational ecosystem
+
+Develop backend services for an educational platform serving approximately **15,000 users**. My work includes access control, background jobs, caching, and integrations with 1C:University and related products.
+
+`Laravel` `Go` `PostgreSQL` `Redis` `RabbitMQ` `REST` `gRPC`
+
+### 📊 InStudy Analytics · Data across products
+
+Built a Go analytics platform aggregating data from InStudy, InStudyGPT, Marketplace, and Course Constructor. Implemented the data model, reporting APIs, and background dataset preparation.
+
+`Go` `PostgreSQL` `REST API` `Background processing`
+
+### 🔐 Centralized SSO · Authentication across services
+
+Designed and implemented OAuth2 single sign-on for internal services in the InStudy ecosystem, bringing authentication into a shared service.
+
+`Go` `OAuth2` `PostgreSQL` `Redis` `RBAC`
+
+### 🧭 Career Navigator · Career-guidance platform
+
+Developed and maintained backend business logic, REST APIs, authentication, roles, and external integrations. Worked on document generation, import/export workflows, SQL optimization, and PHPUnit coverage for critical behavior.
+
+`PHP` `Laravel` `MySQL` `Redis` `Sanctum` `PHPUnit` `GitLab CI`
+
+<sub>These descriptions cover my contributions to commercial projects; they are not links to public source code.</sub>
+
+## My toolbox
+
+**Core backend stack**
+
+![Core technologies: Go, PHP, Laravel, PostgreSQL, MySQL, Redis, RabbitMQ](https://skillicons.dev/icons?i=go,php,laravel,postgres,mysql,redis,rabbitmq&perline=7)
+
+**Infrastructure & delivery**
+
+![Infrastructure tools: Docker, Kubernetes, Nginx, Linux, Git, GitHub Actions, GitLab](https://skillicons.dev/icons?i=docker,kubernetes,nginx,linux,git,githubactions,gitlab&perline=7)
+
+Docker-based environments, GitHub Actions and GitLab CI pipelines, Nginx/Linux production support, and contributions to Kubernetes deployments.
+
+**Also in my toolkit**
+
+![Additional tools: TypeScript, Node.js, GraphQL, Postman](https://skillicons.dev/icons?i=ts,nodejs,graphql,postman&perline=4)
+
+TypeScript · Node.js · GraphQL · Postman · October CMS
+
+## How I approach backend work
+
+- Start with the business workflow, data model, and access rules.
+- Keep APIs explicit and document their contracts.
+- Use queues for background work and caching where it makes a practical difference.
+- Optimize SQL queries and cover critical behavior with tests.
+- Keep modules focused and changes easy to review.
+
+---
+
+<div align="center">
+
+**Have a backend challenge or a product to build?**
+
+[Message me on Telegram](https://t.me/dryundell) · [Career profile](https://career.habr.com/dryundel021) · [Instagram](https://instagram.com/dryundel021)
+
+</div>
