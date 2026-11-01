@@ -100,8 +100,8 @@ I set up application delivery and services, configure CI, and participate in the
 <p><a href="https://review-hub.ru">Live product ↗</a> · <a href="https://github.com/DryundeL/review-app">Frontend ↗</a> · <a href="https://github.com/DryundeL/review-api">Backend ↗</a></p>
 </td>
 <td width="50%" valign="top" align="center">
-<a href="https://github.com/DryundeL/gprc-auth"><img src="./assets/project-grpc.svg" width="100%" alt="gRPC Auth — personal Go learning project with Protocol Buffers. Click to explore the source." /></a>
-<p><a href="https://github.com/DryundeL/gprc-auth">Explore source ↗</a></p>
+<a href="https://github.com/DryundeL/notch-shelf"><img src="./assets/project-notch-shelf.svg" width="100%" alt="Notch Shelf — native macOS menu bar utility in active development. Swift 6, AppKit and SwiftUI. Click to explore the source." /></a>
+<p><a href="https://github.com/DryundeL/notch-shelf">Explore source ↗</a></p>
 </td>
 </tr>
 </table>
@@ -118,9 +118,13 @@ A live, actively developed platform for reviews of digital content: **web app an
 </details>
 
 <details>
-<summary>🟣 gRPC Auth / open experiment notes</summary>
+<summary>🟣 Notch Shelf / open build notes</summary>
 
-A separate **Go learning project** exploring service contracts with **Protocol Buffers and gRPC**, including registration, login, and access checks.
+A native **macOS menu bar utility** built with **Swift 6, AppKit, and SwiftUI**. Selected applications are available through a custom hover shelf, with saved preferences and a Russian/English interface.
+
+- **Interface:** notch-aware shelf, display-aware positioning, local application menus, and SwiftUI settings.
+- **System integration:** Accessibility-based menu inspection, persistent selection, and launch-at-login integration.
+- **Status:** active development; menu-bar hiding uses private macOS APIs and remains experimental.
 
 </details>
 
