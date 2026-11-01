@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+<title id="title">Developer runtime — a little engineering humour</title>
+<desc id="desc">An animated debugging loop, a floating rubber duck asking about logs, and a playful commit progress bar. Decorative illustrations, not live activity metrics.</desc>
+<defs><linearGradient id="bg"><stop stop-color="#091523"/><stop offset="1" stop-color="#1b1230"/></linearGradient><linearGradient id="progress"><stop stop-color="#4de8d4"/><stop offset="1" stop-color="#b68aff"/></linearGradient></defs>
+<style>
+text{font-family:Consolas,Monaco,monospace}.card{fill:#0c1423;stroke:#30445d}.label{fill:#99adc8;font-size:12px;letter-spacing:2px}.line{fill:#7eead8;font-size:15px;animation:reveal 8s infinite}.duck{animation:bob 3.4s ease-in-out infinite}.bubble{animation:thought 6s ease-in-out infinite}.load{animation:load 7s ease-in-out infinite}.spark{animation:spark 2s ease-in-out infinite}.ring{animation:ring 4s linear infinite;transform-origin:986px 137px}
+@keyframes bob{50%{transform:translateY(-8px) rotate(-1deg)}}@keyframes thought{0%,10%,95%,100%{opacity:.3}25%,85%{opacity:1}}@keyframes reveal{0%,10%,100%{opacity:.25}25%,85%{opacity:1}}@keyframes load{0%,10%{width:8px}80%,95%{width:254px}100%{width:8px}}@keyframes spark{50%{opacity:.3}}@keyframes ring{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.line,.duck,.bubble,.load,.spark,.ring{animation:none}}
+</style>
+<rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+<text x="28" y="32" class="label">AFTER HOURS / DEVELOPER RUNTIME</text>
+<text x="1170" y="32" fill="#68809f" font-size="11" text-anchor="end">illustrations, not telemetry</text>
+<rect x="24" y="52" width="368" height="204" rx="12" class="card"/>
+<rect x="416" y="52" width="368" height="204" rx="12" class="card"/>
+<rect x="808" y="52" width="368" height="204" rx="12" class="card"/>
+<circle cx="46" cy="77" r="4" fill="#50eadc" class="spark"/><text x="60" y="82" class="label">THE DEBUG LOOP</text>
+<text x="44" y="116" class="line">01 &gt; reproduce the bug</text>
+<text x="44" y="146" class="line" style="animation-delay:-6s">02 &gt; read the logs</text>
+<text x="44" y="176" class="line" style="animation-delay:-4s">03 &gt; fix. test. ship.</text>
+<text x="44" y="227" fill="#9b8ac6" font-size="11">plot twist: it was the cache.</text>
+<text x="436" y="82" class="label">RUBBER DUCK SUPPORT</text>
+<g class="bubble"><rect x="471" y="98" width="260" height="33" rx="9" fill="#1d2440" stroke="#7863a4"/><path d="M585 131l10 12 7-12" fill="#1d2440" stroke="#7863a4"/><text x="601" y="119" fill="#d7c8f7" font-size="12" text-anchor="middle">Have you checked the logs?</text></g>
+<ellipse cx="600" cy="223" rx="63" ry="5" fill="#183747"/>
+<path d="M539 220q30-9 61 0t61 0" fill="none" stroke="#50eadc" stroke-opacity=".4"/>
+<g class="duck"><path d="M554 183q-15-14-20-3 6 40 49 39 52 2 60-32-23 8-41-5z" fill="#edbc51"/><circle cx="608" cy="169" r="26" fill="#ffe18b"/><path d="M630 169l23 8-24 8z" fill="#ff9966"/><circle cx="616" cy="163" r="3" fill="#162139"/><path d="M567 193q18 19 34 1" fill="none" stroke="#cf953d" stroke-width="3" stroke-linecap="round"/></g>
+<text x="600" y="246" fill="#8ba3be" font-size="10" text-anchor="middle">senior listener / zero meetings</text>
+<text x="828" y="82" class="label">SMALL COMMITS. BIG IDEAS.</text>
+<circle cx="986" cy="137" r="28" fill="none" stroke="#27354e" stroke-width="2"/>
+<g class="ring"><circle cx="986" cy="137" r="28" fill="none" stroke="#ac87f2" stroke-width="3" stroke-dasharray="44 132"/><circle cx="986" cy="109" r="4" fill="#66efd9"/></g>
+<text x="986" y="143" fill="#d8e6fc" text-anchor="middle" font-size="17">git</text>
+<rect x="856" y="188" width="260" height="9" rx="4" fill="#233048"/>
+<rect x="859" y="190" width="8" height="5" rx="2" fill="url(#progress)" class="load"/>
+<text x="986" y="227" fill="#a6bad1" text-anchor="middle" font-size="11">while (curious) { build(); }</text>
+</svg>
