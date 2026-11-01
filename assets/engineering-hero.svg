@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title desc">
+<title id="title">Andrey Dmitriev — Full-Stack Developer</title>
+<desc id="desc">PHP, Laravel, Go, React and TypeScript. Animated connections between interface, API and data services on a dark neon background.</desc>
+<defs>
+  <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#08121e"/><stop offset=".55" stop-color="#12152d"/><stop offset="1" stop-color="#1d1035"/></linearGradient>
+  <linearGradient id="accent"><stop stop-color="#50eadc"/><stop offset="1" stop-color="#b98bff"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#7961ff" stop-opacity=".22"/><stop offset="1" stop-color="#7961ff" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#7386a5" stroke-opacity=".08"/></pattern>
+  <clipPath id="clip"><rect width="1200" height="370" rx="20"/></clipPath>
+</defs>
+<style>
+  text{font-family:Arial,Helvetica,sans-serif}
+  .mono{font-family:Consolas,Monaco,monospace}
+  .flow{stroke-dasharray:5 10;animation:flow 2.4s linear infinite}
+  .cursor{animation:blink 1.2s steps(2,end) infinite}
+  .pulse{transform-box:fill-box;transform-origin:center;animation:pulse 3s ease-in-out infinite}
+  @keyframes flow{to{stroke-dashoffset:-60}}
+  @keyframes blink{50%{opacity:0}}
+  @keyframes pulse{50%{opacity:.4;transform:scale(.85)}}
+  @media(prefers-reduced-motion:reduce){.flow,.cursor,.pulse{animation:none}}
+</style>
+<g clip-path="url(#clip)">
+  <rect width="1200" height="370" fill="url(#bg)"/>
+  <rect width="1200" height="370" fill="url(#grid)"/>
+  <ellipse cx="1010" cy="190" rx="440" ry="320" fill="url(#halo)"/>
+  <path d="M0 369H1200" stroke="url(#accent)" stroke-width="3"/>
+  <rect x="36" y="31" width="5" height="23" rx="2" fill="#50eadc"/>
+  <text x="54" y="48" class="mono" font-size="15" letter-spacing="3" fill="#9aaec4">DRYUNDEL / ENGINEERING</text>
+  <text x="44" y="128" font-size="58" font-weight="700" letter-spacing="-2" fill="#eff5ff">ANDREY</text>
+  <text x="44" y="191" font-size="58" font-weight="700" letter-spacing="-2" fill="url(#accent)">DMITRIEV</text>
+  <text x="47" y="232" class="mono" font-size="18" letter-spacing="3" fill="#d3deef">FULL-STACK DEVELOPER</text>
+  <text x="47" y="267" font-size="16" fill="#9aabc4">Backend depth. Interfaces. Production delivery.</text>
+  <g class="mono" font-size="13" fill="#d8e4f7" text-anchor="middle">
+    <rect x="46" y="296" width="69" height="30" rx="7" fill="#151f32" stroke="#36526a"/><text x="80" y="316">PHP</text>
+    <rect x="124" y="296" width="93" height="30" rx="7" fill="#151f32" stroke="#36526a"/><text x="170" y="316">Laravel</text>
+    <rect x="226" y="296" width="59" height="30" rx="7" fill="#151f32" stroke="#36526a"/><text x="255" y="316">Go</text>
+    <rect x="294" y="296" width="78" height="30" rx="7" fill="#151f32" stroke="#36526a"/><text x="333" y="316">React</text>
+    <rect x="381" y="296" width="119" height="30" rx="7" fill="#151f32" stroke="#36526a"/><text x="440" y="316">TypeScript</text>
+  </g>
+  <g transform="translate(650 48)">
+    <rect width="500" height="274" rx="13" fill="#0a1120" stroke="#33445f"/>
+    <path d="M0 40H500" stroke="#25344d"/>
+    <circle cx="20" cy="20" r="4" fill="#ff6b8a"/><circle cx="36" cy="20" r="4" fill="#e9be70"/><circle cx="52" cy="20" r="4" fill="#50eadc"/>
+    <text x="78" y="25" class="mono" font-size="11" fill="#91a7c4">workflow / from idea to production</text>
+    <text x="24" y="77" class="mono" font-size="13" fill="#50eadc">$ build --from=idea --to=production</text>
+    <rect x="365" y="64" width="7" height="15" fill="#50eadc" class="cursor"/>
+    <g fill="none" stroke-width="2">
+      <path d="M125 141H210M290 141H375M250 163V208H125V163" stroke="#304761"/>
+      <path d="M125 141H210M290 141H375M250 163V208H125V163" stroke="#50eadc" class="flow"/>
+    </g>
+    <g class="mono" font-size="12" text-anchor="middle">
+      <rect x="37" y="116" width="90" height="49" rx="9" fill="#112a33" stroke="#4ad5ca"/><text x="82" y="137" fill="#a3f3e8">UI</text><text x="82" y="153" font-size="9" fill="#8ca6bf">React / TS</text>
+      <rect x="207" y="116" width="86" height="49" rx="9" fill="#20203d" stroke="#a888f7"/><text x="250" y="137" fill="#d9c4ff">API</text><text x="250" y="153" font-size="9" fill="#a49dbd">Laravel / Go</text>
+      <rect x="373" y="116" width="90" height="49" rx="9" fill="#112a33" stroke="#4ad5ca"/><text x="418" y="137" fill="#a3f3e8">DATA</text><text x="418" y="153" font-size="9" fill="#8ca6bf">SQL / queues</text>
+    </g>
+    <circle cx="335" cy="141" r="4" fill="#c6adff" class="pulse"/>
+    <circle cx="166" cy="141" r="4" fill="#73f2dd" class="pulse"/>
+    <text x="24" y="247" class="mono" font-size="11" fill="#93a6bf">design → implement → review → ship → maintain</text>
+  </g>
+</g>
+</svg>
