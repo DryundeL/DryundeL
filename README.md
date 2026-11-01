@@ -1,94 +1,98 @@
-# Hi, I'm Andrew 👋
+<div align="center">
 
-### Backend Developer · Go & PHP / Laravel
+# Hi, I'm Andrey 👋
 
-APIs, authentication, integrations, and data services — from design to production.
+### Full-Stack Developer · PHP / Laravel · Go · React
+
+**From the data model to the browser — and into production.**
 
 [![Telegram](https://img.shields.io/badge/Let's_talk-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dryundell)
-[![Habr Career](https://img.shields.io/badge/Habr_Career-243642?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/dryundel021)
-[![GitHub](https://img.shields.io/badge/Explore_my_code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dryundel?tab=repositories)
+[![Career](https://img.shields.io/badge/Career_profile-243642?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/dryundel)
+[![Code](https://img.shields.io/badge/Explore_my_code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DryundeL?tab=repositories)
 
 </div>
 
 ---
 
-## The work behind the stack
+## 🧭 The engineer behind the code
 
-I'm a backend developer with commercial experience since **2021**, working primarily with **PHP/Laravel and Go**. I build services for educational platforms, analytics, and business workflows.
+I'm a **Full-Stack developer with strong backend expertise**, building commercial software since **2021**. My core stack is **PHP/Laravel and Go**; I also build web interfaces with **React and TypeScript**.
 
-My work spans API and database design, centralized authentication, asynchronous processing, external integrations, and production delivery. I also contribute to code reviews, task decomposition, and mentoring in a team of up to five engineers.
+At the **Moscow Institute of Psychoanalysis**, I develop services for the InStudy educational ecosystem: authentication, analytics, learning platforms, integrations, and background processing. I contribute to **code reviews, task decomposition, and mentoring a team of up to five developers**.
 
-## What I can help build
+I like following a feature through its whole journey:
 
-| Area | Hands-on experience |
-| :--- | :--- |
-| **Backend services & APIs** | Laravel and Go services, REST/gRPC APIs, OpenAPI documentation, modular application design |
-| **Authentication & access** | OAuth2 SSO, role-based access control, JWT, Laravel Sanctum |
-| **Data & analytics** | PostgreSQL/MySQL data models, SQL optimization, reporting APIs, background dataset preparation |
-| **Integrations & background jobs** | External HTTP APIs, 1C:University integration, queues, RabbitMQ, Redis caching |
-| **Business workflows** | CSV/Excel import and export, PDF/DOCX generation, file storage, marketplace features |
-| **Delivery & quality** | Docker, CI/CD, PHPUnit, production support, code review and mentoring |
+```text
+Business workflow → Data model → API & background jobs → Interface → Deployment
+```
 
-## Selected work
+## 🏗️ Commercial work · InStudy ecosystem
 
-### 🎓 InStudy · Educational ecosystem
+| Product | My contribution | Stack & context |
+| :--- | :--- | :--- |
+| **InStudy** | Access control, schedules, learning materials, chats, background jobs, and integration with **1C:University** through a data bus | **PHP / Laravel** · ~25K registered users |
+| **Analytics** | Built a platform combining data from four products; reporting APIs, surveys, CQRS/outbox, concurrent data loading, and a web interface | **Go / PostgreSQL** |
+| **Centralized SSO** | Develop and maintain shared authentication, profile merging, and access control across services | **PHP / Laravel / Passport / OAuth2** · ~40K registered users |
+| **Course Constructor** | Course import/export, archives, chunked uploads, object storage, RabbitMQ, access checks, and tests | **PHP / Laravel** · separate API and queue containers |
+| **Marketplace** | Roles, subscriptions, content, file storage, and OpenAPI; resolved N+1 queries and added indexes for course lists | **PHP / Laravel** · ~15K registered users |
+| **InStudyGPT** | LLM integrations, streaming responses, and conversation history | **PHP / Laravel** |
 
-Develop backend services for an educational platform serving approximately **15,000 users**. My work includes access control, background jobs, caching, and integrations with 1C:University and related products.
+**Delivery & collaboration:** Docker, GitLab CI/CD, health/readiness checks, queues, and logging. I configure CI and participate in the **ongoing Kubernetes migration**. I have also configured a metrics service and integration using **NATS + ClickHouse**.
 
-`Laravel` `Go` `PostgreSQL` `Redis` `RabbitMQ` `REST` `gRPC`
+<details>
+<summary><b>Performance context & earlier experience</b></summary>
 
-### 📊 InStudy Analytics · Data across products
+- **instudy-back passed a team load test at 1,000 RPS.** This describes that test, rather than a production SLA; registered-user counts above are not concurrent-user counts.
+- **Lazur media · September 2021 – August 2024:** PHP/Laravel development for Career Navigator; APIs, authorization, integrations, CSV/Excel workflows, PDF/DOCX generation, MySQL/Redis, SQL optimization, and PHPUnit. Also maintained an October CMS website and supported Docker/Linux/Nginx delivery workflows.
 
-Built a Go analytics platform aggregating data from InStudy, InStudyGPT, Marketplace, and Course Constructor. Implemented the data model, reporting APIs, and background dataset preparation.
+</details>
 
-`Go` `PostgreSQL` `REST API` `Background processing`
+## 🧰 Tools I work with
 
-### 🔐 Centralized SSO · Authentication across services
+**Backend & data**
 
-Designed and implemented OAuth2 single sign-on for internal services in the InStudy ecosystem, bringing authentication into a shared service.
+![Backend tools: PHP, Laravel, Go, PostgreSQL, MySQL, Redis, RabbitMQ](https://skillicons.dev/icons?i=php,laravel,go,postgres,mysql,redis,rabbitmq&perline=7)
 
-`Go` `OAuth2` `PostgreSQL` `Redis` `RBAC`
+Laravel · Echo · chi · Huma · REST · OpenAPI · OAuth2/SSO · PostgreSQL · MySQL · Redis · RabbitMQ · NATS · ClickHouse · pgx · Goose
 
-### 🧭 Career Navigator · Career-guidance platform
+**Frontend**
 
-Developed and maintained backend business logic, REST APIs, authentication, roles, and external integrations. Worked on document generation, import/export workflows, SQL optimization, and PHPUnit coverage for critical behavior.
+![Frontend tools: React, TypeScript, JavaScript, HTML, CSS, Vite, Node.js](https://skillicons.dev/icons?i=react,ts,js,html,css,vite,nodejs&perline=7)
 
-`PHP` `Laravel` `MySQL` `Redis` `Sanctum` `PHPUnit` `GitLab CI`
+React 19 · TypeScript · Feature-Sliced Design · TanStack Query · Zustand · SSR
 
-<sub>These descriptions cover my contributions to commercial projects; they are not links to public source code.</sub>
+**Build, ship, maintain**
 
-## My toolbox
+![Delivery tools: Docker, Linux, Nginx, Git, GitLab, GitHub Actions](https://skillicons.dev/icons?i=docker,linux,nginx,git,gitlab,githubactions&perline=6)
 
-**Core backend stack**
+Docker Compose · GitLab CI/CD · GitHub Actions · Linux/VPS · Nginx · DNS · HTTPS · PHPUnit · Postman
 
-![Core technologies: Go, PHP, Laravel, PostgreSQL, MySQL, Redis, RabbitMQ](https://skillicons.dev/icons?i=go,php,laravel,postgres,mysql,redis,rabbitmq&perline=7)
+## 🧪 Personal projects
 
-**Infrastructure & delivery**
+### ReviewHub · Web app & Telegram Mini App
 
-![Infrastructure tools: Docker, Kubernetes, Nginx, Linux, Git, GitHub Actions, GitLab](https://skillicons.dev/icons?i=docker,kubernetes,nginx,linux,git,githubactions,gitlab&perline=7)
+A live, actively developed platform for reviews of digital content. I build the **React/TypeScript frontend** and **Go/Echo backend**, including SSR, profiles, subscriptions, notifications, and background events with transactional outbox.
 
-Docker-based environments, GitHub Actions and GitLab CI pipelines, Nginx/Linux production support, and contributions to Kubernetes deployments.
+I also set up the **VPS/Linux environment, DNS, HTTPS/Nginx, SMTP email, Docker Compose, GitHub Actions deployments, Yandex Webmaster, and Google Search Console**.
 
-**Also in my toolkit**
+[Live product](https://review-hub.ru) · [Frontend source](https://github.com/DryundeL/review-app) · [Backend source](https://github.com/DryundeL/review-api)
 
-![Additional tools: TypeScript, Node.js, GraphQL, Postman](https://skillicons.dev/icons?i=ts,nodejs,graphql,postman&perline=4)
+**Also exploring:** [gRPC authentication in Go](https://github.com/DryundeL/gprc-auth) — a separate learning project using Protocol Buffers and gRPC.
 
-TypeScript · Node.js · GraphQL · Postman · October CMS
+## ⚙️ How I build
 
-## How I approach backend work
-
-- Start with the business workflow, data model, and access rules.
-- Keep APIs explicit and document their contracts.
-- Use queues for background work and caching where it makes a practical difference.
-- Optimize SQL queries and cover critical behavior with tests.
-- Keep modules focused and changes easy to review.
+- Start with the workflow, data model, and access rules.
+- Keep API contracts explicit and modules focused.
+- Use queues, caching, and concurrency where the workload calls for them.
+- Optimize SQL and test critical behavior.
+- Make deployment and production diagnostics part of the work.
 
 ---
 
 <div align="center">
 
-**Have a backend challenge or a product to build?**
+**Have a product to build or a service to improve?**
 
-[Message me on Telegram](https://t.me/dryundell) · [Career profile](https://career.habr.com/dryundel021) · [Instagram](https://instagram.com/dryundel021)
+[Let's talk on Telegram](https://t.me/dryundell)
 
 </div>
