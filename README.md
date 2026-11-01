@@ -54,45 +54,114 @@ Business workflow → Data model → API & background jobs → Interface → Dep
 
 ## 03 / The stack
 
-**Backend & data**
+<img src="./assets/stack-console.svg" width="100%" alt="Neon technology panels: PHP/Laravel and Go backend, React/TypeScript frontend, Docker/Linux and CI delivery. Open the panels below for the full stack." />
 
-![Backend tools: PHP, Laravel, Go, PostgreSQL, MySQL, Redis, RabbitMQ](https://skillicons.dev/icons?i=php,laravel,go,postgres,mysql,redis,rabbitmq&perline=7)
+<details>
+<summary>🟢 BACKEND / DATA — open the toolbox</summary>
 
-Laravel · Echo · chi · Huma · REST · OpenAPI · OAuth2/SSO · PostgreSQL · MySQL · Redis · RabbitMQ · NATS · ClickHouse · pgx · Goose
+**PHP 8 / Laravel · Go / Echo / chi / Huma**
 
-**Frontend**
+REST · OpenAPI · OAuth2/SSO · PostgreSQL · MySQL · Redis · RabbitMQ · NATS · ClickHouse · pgx · Goose
 
-![Frontend tools: React, TypeScript, JavaScript, HTML, CSS, Vite, Node.js](https://skillicons.dev/icons?i=react,ts,js,html,css,vite,nodejs&perline=7)
+API and database design, modular services, CQRS, transactional outbox, background jobs, and SQL optimization.
 
-React 19 · TypeScript · Feature-Sliced Design · TanStack Query · Zustand · SSR
+</details>
 
-**Build, ship, maintain**
+<details>
+<summary>🟣 FRONTEND / EXPERIENCE — inspect the interface</summary>
 
-![Delivery tools: Docker, Linux, Nginx, Git, GitLab, GitHub Actions](https://skillicons.dev/icons?i=docker,linux,nginx,git,gitlab,githubactions&perline=6)
+**React 19 / TypeScript · JavaScript · HTML / CSS**
 
-Docker Compose · GitLab CI/CD · GitHub Actions · Linux/VPS · Nginx · DNS · HTTPS · PHPUnit · Postman
+Feature-Sliced Design · TanStack Query · Zustand · Vite · Node.js · SSR
+
+Hands-on React/TypeScript work in personal projects, alongside contributions to commercial analytics interfaces.
+
+</details>
+
+<details>
+<summary>🔵 DELIVERY / OPERATIONS — follow the deployment</summary>
+
+**Docker / Docker Compose · Linux / VPS · Nginx**
+
+GitLab CI/CD · GitHub Actions · DNS · HTTPS · PHPUnit · Git · Postman
+
+I set up application delivery and services, configure CI, and participate in the ongoing Kubernetes migration.
+
+</details>
 
 <a id="projects"></a>
 
 ## 04 / Outside the day job
 
-### ReviewHub · Web app & Telegram Mini App
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://review-hub.ru"><img src="./assets/project-reviewhub.svg" width="100%" alt="ReviewHub — personal live project, React/TypeScript and Go/Echo. Click to open the product." /></a>
+<p><a href="https://review-hub.ru">Live product ↗</a> · <a href="https://github.com/DryundeL/review-app">Frontend ↗</a> · <a href="https://github.com/DryundeL/review-api">Backend ↗</a></p>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://github.com/DryundeL/gprc-auth"><img src="./assets/project-grpc.svg" width="100%" alt="gRPC Auth — personal Go learning project with Protocol Buffers. Click to explore the source." /></a>
+<p><a href="https://github.com/DryundeL/gprc-auth">Explore source ↗</a></p>
+</td>
+</tr>
+</table>
 
-A live, actively developed platform for reviews of digital content. I build the **React/TypeScript frontend** and **Go/Echo backend**, including SSR, profiles, subscriptions, notifications, and background events with transactional outbox.
+<details>
+<summary>🟢 ReviewHub / open build notes</summary>
 
-I also set up the **VPS/Linux environment, DNS, HTTPS/Nginx, SMTP email, Docker Compose, GitHub Actions deployments, Yandex Webmaster, and Google Search Console**.
+A live, actively developed platform for reviews of digital content: **web app and Telegram Mini App**.
 
-[Live product](https://review-hub.ru) · [Frontend source](https://github.com/DryundeL/review-app) · [Backend source](https://github.com/DryundeL/review-api)
+- **Interface:** React/TypeScript, FSD, TanStack Query, Zustand, Vite/Node.js SSR, profiles, subscriptions, and notifications.
+- **Services:** Go/Echo, PostgreSQL/pgx, Goose, Redis, and background events using transactional outbox.
+- **Delivery:** self-configured VPS/Linux, DNS, HTTPS/Nginx, SMTP email, Docker Compose, GitHub Actions deployments, Yandex Webmaster, and Google Search Console.
 
-**Also exploring:** [gRPC authentication in Go](https://github.com/DryundeL/gprc-auth) — a separate learning project using Protocol Buffers and gRPC.
+</details>
+
+<details>
+<summary>🟣 gRPC Auth / open experiment notes</summary>
+
+A separate **Go learning project** exploring service contracts with **Protocol Buffers and gRPC**, including registration, login, and access checks.
+
+</details>
 
 ## 05 / How I build
 
-- Start with the workflow, data model, and access rules.
-- Keep API contracts explicit and modules focused.
-- Use queues, caching, and concurrency where the workload calls for them.
-- Optimize SQL and test critical behavior.
-- Make deployment and production diagnostics part of the work.
+<img src="./assets/engineering-loop.svg" width="100%" alt="Animated engineering loop: discover workflows and access rules, design data and contracts, build modules and tests, review SQL and edge cases, ship with CI and diagnostics. Expand each step below." />
+
+<details>
+<summary>01 / DISCOVER — understand the workflow</summary>
+
+Start with the business workflow, the people using it, the data involved, and the access rules. Identify failure cases before turning the workflow into code.
+
+</details>
+
+<details>
+<summary>02 / DESIGN — make the boundaries clear</summary>
+
+Keep API contracts explicit, model the data deliberately, and give modules focused responsibilities. Choose queues, caching, and concurrency when the workload calls for them.
+
+</details>
+
+<details>
+<summary>03 / BUILD — implement in small steps</summary>
+
+Keep changes focused, integrate with existing conventions, and test critical behavior. Treat the interface, API, and background work as parts of one feature.
+
+</details>
+
+<details>
+<summary>04 / REVIEW — look beyond the happy path</summary>
+
+Review access control, SQL queries, edge cases, failure handling, and maintainability. Make the change easy for another developer to understand.
+
+</details>
+
+<details>
+<summary>05 / SHIP — delivery is part of the feature</summary>
+
+Automate application delivery, include health checks and useful logs, and keep production diagnostics part of the work. Observe the result and feed what you learn into the next change.
+
+</details>
 
 <a id="playground"></a>
 
