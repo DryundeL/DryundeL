@@ -7,7 +7,7 @@
 [![Code](https://img.shields.io/badge/Explore_my_code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DryundeL?tab=repositories)
 
 
-[About](#about) · [Commercial experience](#experience) · [Stack](#stack) · [Personal projects](#projects)
+[About](#about) · [Commercial experience](#experience) · [Stack](#stack) · [Personal projects](#projects) · [Debug mode](#playground)
 
 </div>
 
@@ -93,6 +93,28 @@ I also set up the **VPS/Linux environment, DNS, HTTPS/Nginx, SMTP email, Docker 
 - Use queues, caching, and concurrency where the workload calls for them.
 - Optimize SQL and test critical behavior.
 - Make deployment and production diagnostics part of the work.
+
+<a id="playground"></a>
+
+## 06 / Debug mode: on
+
+<img src="./assets/developer-runtime.svg" width="100%" alt="Developer humour: an animated debug loop, a floating rubber duck asking about logs, and a looping commit progress bar. Decorative, not live metrics." />
+
+<details>
+<summary>🕹️ You found the developer console. Click to open.</summary>
+
+```text
+$ developer --help
+
+  --debug       explain the bug to the duck
+  --cache       the bug might still be the cache
+  --deploy      one small, reviewable commit at a time
+  --coffee      refill before retrying
+
+Achievement unlocked: you actually read the README. 🏆
+```
+
+</details>
 
 ---
 
