@@ -1,20 +1,21 @@
 <div align="center">
 
-# Hi, I'm Andrey 👋
-
-### Full-Stack Developer · PHP / Laravel · Go · React
-
-**From the data model to the browser — and into production.**
+<img src="./assets/engineering-hero.svg" width="100%" alt="Andrey Dmitriev — Full-Stack Developer. PHP, Laravel, Go, React and TypeScript. Animated workflow from interface to API and data." />
 
 [![Telegram](https://img.shields.io/badge/Let's_talk-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/dryundell)
 [![Career](https://img.shields.io/badge/Career_profile-243642?style=for-the-badge&logo=habr&logoColor=white)](https://career.habr.com/dryundel)
 [![Code](https://img.shields.io/badge/Explore_my_code-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DryundeL?tab=repositories)
 
+
+[About](#about) · [Commercial experience](#experience) · [Stack](#stack) · [Personal projects](#projects)
+
 </div>
 
 ---
 
-## 🧭 The engineer behind the code
+<a id="about"></a>
+
+## 01 / The engineer behind the code
 
 I'm a **Full-Stack developer with strong backend expertise**, building commercial software since **2021**. My core stack is **PHP/Laravel and Go**; I also build web interfaces with **React and TypeScript**.
 
@@ -26,7 +27,9 @@ I like following a feature through its whole journey:
 Business workflow → Data model → API & background jobs → Interface → Deployment
 ```
 
-## 🏗️ Commercial work · InStudy ecosystem
+<a id="experience"></a>
+
+## 02 / Production work · InStudy ecosystem
 
 | Product | My contribution | Stack & context |
 | :--- | :--- | :--- |
@@ -47,7 +50,9 @@ Business workflow → Data model → API & background jobs → Interface → Dep
 
 </details>
 
-## 🧰 Tools I work with
+<a id="stack"></a>
+
+## 03 / The stack
 
 **Backend & data**
 
@@ -67,7 +72,9 @@ React 19 · TypeScript · Feature-Sliced Design · TanStack Query · Zustand · 
 
 Docker Compose · GitLab CI/CD · GitHub Actions · Linux/VPS · Nginx · DNS · HTTPS · PHPUnit · Postman
 
-## 🧪 Personal projects
+<a id="projects"></a>
+
+## 04 / Outside the day job
 
 ### ReviewHub · Web app & Telegram Mini App
 
@@ -79,7 +86,7 @@ I also set up the **VPS/Linux environment, DNS, HTTPS/Nginx, SMTP email, Docker 
 
 **Also exploring:** [gRPC authentication in Go](https://github.com/DryundeL/gprc-auth) — a separate learning project using Protocol Buffers and gRPC.
 
-## ⚙️ How I build
+## 05 / How I build
 
 - Start with the workflow, data model, and access rules.
 - Keep API contracts explicit and modules focused.
